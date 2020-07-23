@@ -5,10 +5,20 @@ from collections import namedtuple
 
 Item = namedtuple('Item', ['index', 'size', 'value'])
 
+
 def knapsack_solver(items, capacity):
     # Your code here
+    x=[]
+    while items[0][0] is not len(items) -1:
+   
+          if len(x) < 1:
+                
+                x = items[0]
+          else:
+                
+              
+              
 
-    pass
 
 
 if __name__ == '__main__':
