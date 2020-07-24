@@ -2,6 +2,9 @@
 
 Write a function that takes an array of integers and moves each non-zero integer to the left side of the array, then returns the altered array. The order of the non-zero integers does not matter in the mutated array.
 
+loop through the array 
+
+
 ## Examples
 ```
 Sample input: [0, 3, 1, 0, -2]
